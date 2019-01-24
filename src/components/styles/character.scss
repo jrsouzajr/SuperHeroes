@@ -1,0 +1,32 @@
+.character {
+    width: 100%;
+    position: relative;
+    padding: 10px 15px;
+    &.Villain {
+        background: rgba(255, 0, 0, 0.12);
+        margin-bottom: 5px;
+    }
+    &.Super-Hero {
+        background: rgba(4, 0, 230, 0.12);
+        margin-bottom: 5px;
+    }
+    .character-secondLine {
+        display: flex;
+    }
+    .character-weakness {
+        margin-left: 20px;
+    }
+    .character-options {
+        display: flex;
+        width: 25px;
+        justify-content: space-between;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .character-name,
+    .character-secondLine,
+    .character-type {
+        padding: 3px 0px;
+    }
+}

@@ -1,0 +1,10 @@
+.listCharacter {
+    max-width: 755px;
+    margin: auto;
+    margin-top: 50px;
+    .listCharacter-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
